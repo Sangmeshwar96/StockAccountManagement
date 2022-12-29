@@ -1,0 +1,17 @@
+C:\Users\hp\source\repos\StockInventory\StockInventory\bin\Debug\net6.0\StockInventory.exe
+C:\Users\hp\source\repos\StockInventory\StockInventory\bin\Debug\net6.0\StockInventory.deps.json
+C:\Users\hp\source\repos\StockInventory\StockInventory\bin\Debug\net6.0\StockInventory.runtimeconfig.json
+C:\Users\hp\source\repos\StockInventory\StockInventory\bin\Debug\net6.0\StockInventory.dll
+C:\Users\hp\source\repos\StockInventory\StockInventory\bin\Debug\net6.0\StockInventory.pdb
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\StockInventory.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\StockInventory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\StockInventory.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\StockInventory.AssemblyInfo.cs
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\StockInventory.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\StockInventory.dll
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\refint\StockInventory.dll
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\StockInventory.pdb
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\StockInventory.genruntimeconfig.cache
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\ref\StockInventory.dll
+C:\Users\hp\source\repos\StockInventory\StockInventory\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\hp\source\repos\StockInventory\StockInventory\obj\Debug\net6.0\StockInventory.csproj.CopyComplete
