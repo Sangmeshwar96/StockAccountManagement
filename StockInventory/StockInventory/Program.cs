@@ -14,6 +14,9 @@ namespace StockInventory
             management.ReadStockJsonFile(stockFilePath);
             Console.WriteLine("\nList Of All Company Stock Customer Have :");
             management.ReadCustomerJsonFile(customerFilePath);
+            management.BuyStock("Flipkart");
+            management.WriteToStockJsonFile(stockFilePath);
+            management.WriteToCusatomerJsonFile(customerFilePath);
 
         }
     }

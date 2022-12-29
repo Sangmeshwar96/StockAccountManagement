@@ -11,7 +11,7 @@ namespace StockInventory
 {
     class StockAccountManagement
     {
-        double amount = 100;
+        double amount = 10000;
         List<StockDetails> stock = new List<StockDetails>();
         List<StockDetails> customer = new List<StockDetails>();
         public void ReadStockJsonFile(string filePath)
@@ -34,5 +34,57 @@ namespace StockInventory
                 Console.WriteLine("{0}" + "\t" + "{1}" + "\t" + "{2}" + "\t\t" + "{3}", content.StockName, content.StockPrice, content.NoOfShares, content.NoOfShares * content.StockPrice);
             }
         }
+        public void BuyStock(string name)
+        {
+            foreach (var data in stock)
+            {
+                int count = 0;
+                if (data.StockName.Equals(name))
+                {
+                    Console.WriteLine("Enter The Number Of Stock You Want To Buy : ");
+                    int noOfStocks = Convert.ToInt32(Console.ReadLine());
+                    if (noOfStocks * data.StockPrice <= amount && noOfStocks <= data.NoOfShares)
+                    {
+                        StockDetails details = new StockDetails()
+                        {
+                            StockName = data.StockName,
+                            StockPrice = data.StockPrice,
+                            NoOfShares = noOfStocks
+                        };
+                        data.NoOfShares -= noOfStocks;
+                        amount -= data.StockPrice * noOfStocks;
+
+                        foreach (var account in customer)
+                        {
+                            if (account.StockName.Equals(name))
+                            {
+                                count++;
+                            }
+                        }
+                        if (count == 1)
+                        {
+                            data.NoOfShares += noOfStocks;
+                        }
+                        else
+                        {
+                            customer.Add(details);
+                        }
+
+
+                    }
+                }
+            }
+        }
+        public void WriteToStockJsonFile(string filepath)
+        {
+            var json = JsonConvert.SerializeObject(stock);
+            File.WriteAllText(filepath, json);
+        }
+        public void WriteToCusatomerJsonFile(string filepath)
+        {
+            var json = JsonConvert.SerializeObject(customer);
+            File.WriteAllText(filepath, json);
+        }
+
     }
 }
