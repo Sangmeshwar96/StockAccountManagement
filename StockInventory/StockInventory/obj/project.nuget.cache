@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lN/Zwvw0SWPGymb+9cAjjr9OVoWXSv0jhuVTUNkK7UbQ1nGkVFmtyY2XPNfigLZQbM80KelJq/D/fymOcDI5+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\StockInventory\\StockInventory\\StockInventory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
