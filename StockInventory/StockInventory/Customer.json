@@ -1,1 +1,17 @@
-[{"StockName":"Amazon  ","StockPrice":645.0,"NoOfShares":13},{"StockName":"Flipkart","StockPrice":532.0,"NoOfShares":23},{"StockName":"Trident  ","StockPrice":42.0,"NoOfShares":26}]
+[
+  {
+    "StockName": "Amazon  ",
+    "StockPrice": 645.0,
+    "NoOfShares": 13
+  },
+  {
+    "StockName": "Flipkart",
+    "StockPrice": 532.0,
+    "NoOfShares": 44
+  },
+  {
+    "StockName": "Trident  ",
+    "StockPrice": 42.0,
+    "NoOfShares": 26
+  }
+]
