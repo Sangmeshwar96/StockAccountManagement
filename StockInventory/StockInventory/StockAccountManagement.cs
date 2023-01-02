@@ -77,19 +77,13 @@ namespace StockInventory
         {
             foreach (var data in customer)
             {
-                //int count = 0;
                 if (data.StockName.Equals(name))
                 {
                     Console.WriteLine("Enter The Name Of Stock You Want To Sell : ");
                     int noOfStocks = Convert.ToInt32(Console.ReadLine());
                     if (noOfStocks <= data.NoOfShares)
                     {
-                        //StockDetails details = new StockDetails()
-                        //{
-                        //    StockName = data.StockName,
-                        //    StockPrice = data.StockPrice,
-                        //    NoOfShares = noOfStocks
-                        //};
+
                         data.NoOfShares -= noOfStocks;
                         amount += data.StockPrice * noOfStocks;
 
@@ -98,14 +92,9 @@ namespace StockInventory
                             if (account.StockName.Equals(name))
                             {
                                 account.NoOfShares += noOfStocks;
-                                //return;
-                                //count--;
+                                return;
                             }
                         }
-                        //if (count == 1)
-                        //{
-                        //    stock.Add(details);
-                        //}
                     }
                 }
             }
